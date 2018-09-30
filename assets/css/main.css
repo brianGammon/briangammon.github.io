@@ -4,6 +4,15 @@
 	margin: 50px;
 }
 
+.app-store-img {
+	width: 200px;
+}
+
+div.app-stores p {
+	margin: 0;
+	color: #e6e6e6;
+}
+
 /*
 	Fractal by HTML5 UP
 	html5up.net | @ajlkn
@@ -2738,19 +2747,20 @@ input, select, textarea {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
-			margin: 0 3em 0 0;
+			/* border-radius: 100%; */
+			margin: 0 0 0 3em;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				/* border-radius: 100%; */
 				width: 100%;
 			}
 
 		.spotlight .content {
 			width: 70%;
+			text-align: right;
 		}
 
 			.spotlight .content > :last-child {
@@ -2765,11 +2775,11 @@ input, select, textarea {
 		}
 
 			.spotlight:nth-child(2n) .image {
-				margin: 0 0 0 3em;
+				margin: 0 3em 0 0;
 			}
 
 			.spotlight:nth-child(2n) .content {
-				text-align: right;
+				text-align: left;
 			}
 
 	@media screen and (max-width: 736px) and (orientation: landscape) {
@@ -2796,7 +2806,7 @@ input, select, textarea {
 			.spotlight .image {
 				width: 100%;
 				max-width: 60%;
-				margin: 0 0 2em 0 !important;
+				margin: 2em 0 0 0 !important;
 			}
 
 			.spotlight .content {
@@ -3578,7 +3588,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: landscape) {
 
 		.wrapper {
-			padding: 2em 1.5em 0.1em 1.5em ;
+			padding: 2em 1.5em 1em 1.5em ;
 		}
 
 	}
@@ -3586,7 +3596,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		.wrapper {
-			padding: 2em 1em 0.1em 1em ;
+			padding: 2em 1em 1em 1em ;
 		}
 
 	}
