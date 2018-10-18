@@ -5,7 +5,15 @@
 }
 
 .app-store-img {
-	width: 200px;
+	width: 160px;
+}
+
+a.badge {
+	border-bottom: none;
+}
+
+.ios-app-store-badge {
+	padding: 25px;
 }
 
 div.app-stores p {
